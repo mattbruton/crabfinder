@@ -10,6 +10,8 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { PostComponent } from './post/post.component';
 import { FeedComponent } from './feed/feed.component';
+import { LandingComponent } from './landing/landing.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 // Services
 import { PostsService } from './posts.service';
@@ -18,8 +20,7 @@ import { PostsService } from './posts.service';
 const ROUTES = [
   {
     path: '',
-    redirectTo: 'posts',
-    pathMatch: 'full'
+    component: LandingComponent
   },
   {
     path: 'posts',
@@ -31,7 +32,9 @@ const ROUTES = [
   declarations: [
     AppComponent,
     PostComponent,
-    FeedComponent
+    FeedComponent,
+    LandingComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,

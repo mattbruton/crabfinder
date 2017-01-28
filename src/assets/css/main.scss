@@ -1,12 +1,14 @@
-
+// normalize.scss
+@import './normalize';
 // Variables
 @import './variables';
 
 // Components
+    // Navigation
+@import '../../app/navigation/navigation.component';
+    // Feed
 @import '../../app/feed/feed.component';
 @import '../../app/post/post.component';
-
-
 
 body {
     background-color: white;
