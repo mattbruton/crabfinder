@@ -8,9 +8,15 @@
       "root": "src",
       "outDir": "dist",
       "assets": [
-        "assets",
-        "favicon.ico"
-      ],
+  "assets",
+  
+  "favicon.ico"
+],
+    "stylePreprocessorOptions": {
+        "includePaths": [
+            "styles/assets/css"
+        ]
+    },
       "index": "index.html",
       "main": "main.ts",
       "test": "test.ts",
@@ -18,9 +24,10 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
-        "styles.css"
+        "styles.scss"
       ],
-      "scripts": [],
+      "scripts": [
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
@@ -39,7 +46,7 @@
     }
   },
   "defaults": {
-    "styleExt": "css",
+    "styleExt": "scss",
     "prefixInterfaces": false,
     "inline": {
       "style": false,

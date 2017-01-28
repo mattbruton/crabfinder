@@ -1,12 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { PostsService } from '../posts.service';
 
+
 @Component({
-  selector: 'app-posts',
-  templateUrl: './post.component.html',
-  styleUrls: ['./post.component.css']
+  selector: 'app-feed',
+  templateUrl: './feed.component.html',
+  styleUrls: ['./feed.component.scss']
 })
-export class PostComponent implements OnInit {
+export class FeedComponent implements OnInit {
+
   // instantiate posts to an empty array
   posts: any = [];
 

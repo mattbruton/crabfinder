@@ -1,0 +1,13 @@
+@import '../../assets/css/variables';
+
+.post {
+    max-width: 50%;
+    margin: auto;
+    border: 3px solid $background-blue;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.post-title {
+    color: $background-blue;
+}
