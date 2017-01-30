@@ -1,6 +1,7 @@
 // normalize.scss
 @import './normalize';
 // Variables
+@import './headers';
 @import './variables';
 
 // Components
@@ -9,8 +10,3 @@
     // Feed
 @import '../../app/feed/feed.component';
 @import '../../app/post/post.component';
-
-body {
-    background-color: white;
-}
-
